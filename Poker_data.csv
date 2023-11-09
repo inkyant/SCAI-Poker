@@ -1,0 +1,80 @@
+Cards,Table Cards,Move History,Outcome
+3c 9s,N/A,"['posts small blind 50', 'folds']",0
+6c Qd,N/A,['folds'],0
+Jh 4h,5c 9s 7c 3h,['folds'],0
+4s Tc,9s Jc 5d 8h,['folds'],0
+5s 8s,N/A,['folds'],0
+7d 7c,N/A,"['posts big blind 100', 'folds']",0
+Qd 4c,N/A,"['posts small blind 50', 'folds']",0
+3h Ts,3s Jh 2h Tc Ks,['folds'],0
+Ts 2d,Ks 3h 4s,['folds'],0
+2c Qd,N/A,['folds'],0
+7d 4s,N/A,['folds'],0
+4h 7c,N/A,"['posts big blind 100', 'folds']",0
+Ks 7d,3d Qc 2c 9s 5s,"['posts small blind 50', 'folds']",0
+Jc 2d,N/A,['folds'],0
+Kh Ad,N/A,['raises 125 to 225'],1
+Js Qd,N/A,['raises 125 to 225'],1
+Qh 2d,5h Ts 8h Tc,['folds'],0
+6d Qs,2d 9c 6h Qd 5h,"['posts big blind 100', 'calls 100', 'checks', 'calls 150', 'checks', 'bets 750']",1
+Ts 6d,N/A,"['posts small blind 50', 'folds']",0
+Qd 3d,N/A,['folds'],0
+Jd 4s,N/A,['folds'],0
+8h 2d,9h Ts Jh Kh Ah,['folds'],0
+Ah 2d,Qs Tc 8d 7h 7s,['folds'],0
+As Ks,7d Td 8c,"['posts big blind 100', 'raises 950 to 1150', 'checks', 'folds']",0
+Th 3c,N/A,"['posts small blind 50', 'folds']",0
+Ad 5s,N/A,['raises 125 to 225'],1
+Td 2c,N/A,['folds'],0
+Qh 7c,3h 7s 5c Qs 6c,['folds'],0
+Tc 7c,N/A,['folds'],0
+5d 3c,Js Kc 2h,"['posts big blind 100', 'folds']",0
+8s Qd,N/A,"['posts small blind 50', 'folds']",0
+Kh 6h,5s 2s Qh 2d 5c,['folds'],0
+6s Ts,2s 9d 5c,['folds'],0
+Kh Qd,Ts Kd 3h 4c,"['raises 125 to 225', 'bets 375', 'calls 750', 'bets 999']",1
+4c Qc,N/A,['folds'],0
+3d Qc,3c 9h Jh 5h Jd,"['posts big blind 100', 'folds']",0
+6s 3d,6d 5s Qs Jd,"['posts small blind 50', 'folds']",0
+7h 7d,Jh 2d 4h Qd 6c,"['calls 200', 'calls 1150', 'checks', 'checks', 'checks', 'shows [7h 7d]']",1
+Jh 3s,4h 3d Ac,['folds'],0
+Th 6c,5c 7d 8s 4h 8d,['folds'],0
+Jc Qc,7d Ks Qd 8h As,"['raises 125 to 225', 'checks', 'checks', 'checks', 'shows [Jc Qc]']",1
+7s 7h,4h 9s 6h,"['posts big blind 100', 'calls 150', 'folds']",0
+3c 6c,N/A,"['posts small blind 50', 'folds']",0
+8c Kc,N/A,['folds'],0
+9h Ts,N/A,['folds'],0
+6h 2s,5c 8s Ts Qc,['folds'],0
+Ts 5d,N/A,['folds'],0
+Td 2d,6s As Th 7s Ts,"['posts big blind 100', 'calls 150', 'checks', 'calls 275', 'checks', 'checks', 'shows [Td 2d]']",1
+Ts 7d,N/A,"['posts small blind 50', 'folds']",0
+7h 5d,N/A,['folds'],0
+6h 2c,Ah 4c 2d Qd 8s,['folds'],0
+3s 3d,8h Ah 8d,"['raises 125 to 225', 'folds']",0
+5d Td,3s 6c 8c Ad 8s,['folds'],0
+2d As,2h 8d Qd 9h,"['posts big blind 100', 'calls 125', 'checks', 'checks', 'folds']",0
+Jd 8c,7d Ac Ad 9h 9d,"['posts small blind 50', 'folds']",0
+7s Qh,N/A,['folds'],0
+3h 2d,Kd Qs Tc,['folds'],0
+6s 8c,N/A,['folds'],0
+7h 5h,N/A,['folds'],0
+3h Kc,3d Jh 5d,"['posts big blind 100', 'calls 100', 'checks', 'folds']",0
+Ad 9d,2c Kd Jh,"['posts small blind 50', 'raises 550 to 775', 'checks', 'folds']",0
+Ah 9h,N/A,"['calls 225', 'folds']",0
+Tc 2h,N/A,['folds'],0
+5d Qs,2d As 6c 8d,['folds'],0
+7h 4d,N/A,['folds'],0
+Ks 7c,4s 2c 3s,"['posts big blind 100', 'calls 125', 'checks', 'folds']",0
+2c 3c,7c Th Ts 7s,"['posts small blind 50', 'folds']",0
+3d 5c,7c Js Kc,['folds'],0
+6s 3h,N/A,['folds'],0
+Jh 5s,6s 8s Ac 6d As,['folds'],0
+7d 7s,N/A,"['raises 125 to 225', 'folds']",0
+Tc 3c,3d 4d Kd,"['posts big blind 100', 'calls 125', 'checks', 'folds']",0
+3c 5h,Qs Ad Qh 6c 9d,"['posts small blind 50', 'folds']",0
+8c As,N/A,['folds'],0
+Ks Qs,Ac 9s Kc 6h 5s,"['raises 125 to 225', 'checks', 'calls 625', 'folds']",0
+Th Ks,N/A,['folds'],0
+Jd Th,N/A,['folds'],0
+Td Qd,5h 4c 4s 7d 3d,"['posts big blind 100', 'calls 100', 'checks', 'bets 337', 'checks', 'folds']",0
+8h Tc,N/A,"['posts small blind 50', 'folds']",0
