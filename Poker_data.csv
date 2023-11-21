@@ -1,80 +1,80 @@
 Cards,Table Cards,Move History,Outcome
-3c 9s,N/A,"['posts small blind 50', 'folds']",0
-6c Qd,N/A,['folds'],0
-Jh 4h,5c 9s 7c 3h,['folds'],0
-4s Tc,9s Jc 5d 8h,['folds'],0
-5s 8s,N/A,['folds'],0
-7d 7c,N/A,"['posts big blind 100', 'folds']",0
-Qd 4c,N/A,"['posts small blind 50', 'folds']",0
-3h Ts,3s Jh 2h Tc Ks,['folds'],0
-Ts 2d,Ks 3h 4s,['folds'],0
-2c Qd,N/A,['folds'],0
-7d 4s,N/A,['folds'],0
-4h 7c,N/A,"['posts big blind 100', 'folds']",0
-Ks 7d,3d Qc 2c 9s 5s,"['posts small blind 50', 'folds']",0
-Jc 2d,N/A,['folds'],0
-Kh Ad,N/A,['raises 125 to 225'],1
-Js Qd,N/A,['raises 125 to 225'],1
-Qh 2d,5h Ts 8h Tc,['folds'],0
-6d Qs,2d 9c 6h Qd 5h,"['posts big blind 100', 'calls 100', 'checks', 'calls 150', 'checks', 'bets 750']",1
-Ts 6d,N/A,"['posts small blind 50', 'folds']",0
-Qd 3d,N/A,['folds'],0
-Jd 4s,N/A,['folds'],0
-8h 2d,9h Ts Jh Kh Ah,['folds'],0
-Ah 2d,Qs Tc 8d 7h 7s,['folds'],0
-As Ks,7d Td 8c,"['posts big blind 100', 'raises 950 to 1150', 'checks', 'folds']",0
-Th 3c,N/A,"['posts small blind 50', 'folds']",0
-Ad 5s,N/A,['raises 125 to 225'],1
-Td 2c,N/A,['folds'],0
-Qh 7c,3h 7s 5c Qs 6c,['folds'],0
-Tc 7c,N/A,['folds'],0
-5d 3c,Js Kc 2h,"['posts big blind 100', 'folds']",0
-8s Qd,N/A,"['posts small blind 50', 'folds']",0
-Kh 6h,5s 2s Qh 2d 5c,['folds'],0
-6s Ts,2s 9d 5c,['folds'],0
-Kh Qd,Ts Kd 3h 4c,"['raises 125 to 225', 'bets 375', 'calls 750', 'bets 999']",1
-4c Qc,N/A,['folds'],0
-3d Qc,3c 9h Jh 5h Jd,"['posts big blind 100', 'folds']",0
-6s 3d,6d 5s Qs Jd,"['posts small blind 50', 'folds']",0
-7h 7d,Jh 2d 4h Qd 6c,"['calls 200', 'calls 1150', 'checks', 'checks', 'checks', 'shows [7h 7d]']",1
-Jh 3s,4h 3d Ac,['folds'],0
-Th 6c,5c 7d 8s 4h 8d,['folds'],0
-Jc Qc,7d Ks Qd 8h As,"['raises 125 to 225', 'checks', 'checks', 'checks', 'shows [Jc Qc]']",1
-7s 7h,4h 9s 6h,"['posts big blind 100', 'calls 150', 'folds']",0
-3c 6c,N/A,"['posts small blind 50', 'folds']",0
-8c Kc,N/A,['folds'],0
-9h Ts,N/A,['folds'],0
-6h 2s,5c 8s Ts Qc,['folds'],0
-Ts 5d,N/A,['folds'],0
-Td 2d,6s As Th 7s Ts,"['posts big blind 100', 'calls 150', 'checks', 'calls 275', 'checks', 'checks', 'shows [Td 2d]']",1
-Ts 7d,N/A,"['posts small blind 50', 'folds']",0
-7h 5d,N/A,['folds'],0
-6h 2c,Ah 4c 2d Qd 8s,['folds'],0
-3s 3d,8h Ah 8d,"['raises 125 to 225', 'folds']",0
-5d Td,3s 6c 8c Ad 8s,['folds'],0
-2d As,2h 8d Qd 9h,"['posts big blind 100', 'calls 125', 'checks', 'checks', 'folds']",0
-Jd 8c,7d Ac Ad 9h 9d,"['posts small blind 50', 'folds']",0
-7s Qh,N/A,['folds'],0
-3h 2d,Kd Qs Tc,['folds'],0
-6s 8c,N/A,['folds'],0
-7h 5h,N/A,['folds'],0
-3h Kc,3d Jh 5d,"['posts big blind 100', 'calls 100', 'checks', 'folds']",0
-Ad 9d,2c Kd Jh,"['posts small blind 50', 'raises 550 to 775', 'checks', 'folds']",0
-Ah 9h,N/A,"['calls 225', 'folds']",0
-Tc 2h,N/A,['folds'],0
-5d Qs,2d As 6c 8d,['folds'],0
-7h 4d,N/A,['folds'],0
-Ks 7c,4s 2c 3s,"['posts big blind 100', 'calls 125', 'checks', 'folds']",0
-2c 3c,7c Th Ts 7s,"['posts small blind 50', 'folds']",0
-3d 5c,7c Js Kc,['folds'],0
-6s 3h,N/A,['folds'],0
-Jh 5s,6s 8s Ac 6d As,['folds'],0
-7d 7s,N/A,"['raises 125 to 225', 'folds']",0
-Tc 3c,3d 4d Kd,"['posts big blind 100', 'calls 125', 'checks', 'folds']",0
-3c 5h,Qs Ad Qh 6c 9d,"['posts small blind 50', 'folds']",0
-8c As,N/A,['folds'],0
-Ks Qs,Ac 9s Kc 6h 5s,"['raises 125 to 225', 'checks', 'calls 625', 'folds']",0
-Th Ks,N/A,['folds'],0
-Jd Th,N/A,['folds'],0
-Td Qd,5h 4c 4s 7d 3d,"['posts big blind 100', 'calls 100', 'checks', 'bets 337', 'checks', 'folds']",0
-8h Tc,N/A,"['posts small blind 50', 'folds']",0
+3c 9s,N/A,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds')]",0
+6c Qd,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'raises 200 to 300'), ('Budd', 'folds')]",0
+Jh 4h,5c 9s 7c 3h,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'raises 100 to 200'), ('Budd', 'folds'), ('Eddie', 'calls 100'), ('Eddie', 'checks'), ('Gogo', 'checks'), ('Eddie', 'bets 675'), ('Gogo', 'folds')]",0
+4s Tc,9s Jc 5d 8h,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'raises 100 to 200'), ('Budd', 'raises 500 to 700'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Gogo', 'raises 1350 to 2050'), ('Budd', 'calls 1350'), ('Gogo', 'checks'), ('Budd', 'checks'), ('Gogo', 'checks'), ('Budd', 'bets 2125'), ('Gogo', 'folds')]",0
+5s 8s,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'raises 125 to 225'), ('Eddie', 'raises 575 to 800'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('Budd', 'folds')]",0
+7d 7c,N/A,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'raises 100 to 200'), ('Bill', 'folds'), ('Pluribus', 'raises 750 to 950'), ('MrWhite', 'folds'), ('Eddie', 'folds')]",0
+Qd 4c,N/A,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds')]",0
+3h Ts,3s Jh 2h Tc Ks,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'calls 125'), ('Budd', 'checks'), ('Bill', 'bets 250'), ('Budd', 'calls 250'), ('Budd', 'checks'), ('Bill', 'bets 750'), ('Budd', 'calls 750'), ('Budd', 'checks'), ('Bill', 'checks'), ('Budd', 'shows [Jd 9h]')]",0
+Ts 2d,Ks 3h 4s,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'raises 475 to 700'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'calls 475'), ('Bill', 'checks'), ('Gogo', 'bets 500'), ('Bill', 'folds')]",0
+2c Qd,N/A,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'raises 100 to 200'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds')]",0
+7d 4s,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'raises 122 to 222'), ('Bill', 'raises 728 to 950'), ('Pluribus', 'folds'), ('Eddie', 'folds')]",0
+4h 7c,N/A,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 150 to 250'), ('Pluribus', 'folds'), ('MrWhite', 'folds')]",0
+Ks 7d,3d Qc 2c 9s 5s,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'raises 125 to 225'), ('MrWhite', 'folds'), ('Gogo', 'calls 125'), ('Gogo', 'checks'), ('Pluribus', 'bets 250'), ('Gogo', 'calls 250'), ('Gogo', 'checks'), ('Pluribus', 'bets 1000'), ('Gogo', 'calls 1000'), ('Gogo', 'checks'), ('Pluribus', 'checks'), ('Gogo', 'shows [8s Qh]')]",0
+Jc 2d,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds')]",0
+Kh Ad,N/A,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'raises 125 to 225'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds')]",1
+Js Qd,N/A,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'raises 125 to 225'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds')]",1
+Qh 2d,5h Ts 8h Tc,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'raises 100 to 200'), ('Budd', 'folds'), ('Eddie', 'calls 200'), ('Bill', 'calls 150'), ('Pluribus', 'calls 100'), ('Bill', 'checks'), ('Pluribus', 'checks'), ('Gogo', 'checks'), ('Eddie', 'checks'), ('Bill', 'checks'), ('Pluribus', 'checks'), ('Gogo', 'bets 500'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'raises 900 to 1400'), ('Gogo', 'raises 1950 to 3350'), ('Pluribus', 'raises 3750 to 7100'), ('Gogo', 'folds')]",0
+6d Qs,2d 9c 6h Qd 5h,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'raises 100 to 200'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'calls 100'), ('MrWhite', 'checks'), ('Gogo', 'bets 150'), ('MrWhite', 'calls 150'), ('MrWhite', 'checks'), ('Gogo', 'checks'), ('MrWhite', 'bets 750'), ('Gogo', 'folds')]",1
+Ts 6d,N/A,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds')]",0
+Qd 3d,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds')]",0
+Jd 4s,N/A,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds')]",0
+8h 2d,9h Ts Jh Kh Ah,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'raises 150 to 250'), ('MrWhite', 'folds'), ('Gogo', 'raises 550 to 800'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'calls 550'), ('Pluribus', 'checks'), ('Gogo', 'bets 600'), ('Pluribus', 'calls 600'), ('Pluribus', 'checks'), ('Gogo', 'checks'), ('Pluribus', 'checks'), ('Gogo', 'checks'), ('Gogo', 'shows [Kd Qs]')]",0
+Ah 2d,Qs Tc 8d 7h 7s,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'raises 100 to 200'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 650 to 850'), ('Pluribus', 'folds'), ('Gogo', 'calls 650'), ('Bill', 'checks'), ('Gogo', 'checks'), ('Bill', 'bets 1350'), ('Gogo', 'calls 1350'), ('Bill', 'bets 3375'), ('Gogo', 'folds')]",0
+As Ks,7d Td 8c,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'raises 100 to 200'), ('Bill', 'calls 200'), ('Pluribus', 'calls 150'), ('MrWhite', 'raises 950 to 1150'), ('Eddie', 'calls 950'), ('Bill', 'calls 950'), ('Pluribus', 'folds'), ('MrWhite', 'checks'), ('Eddie', 'bets 913'), ('Bill', 'folds'), ('MrWhite', 'folds')]",0
+Th 3c,N/A,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'raises 150 to 250'), ('MrWhite', 'folds'), ('Gogo', 'folds')]",0
+Ad 5s,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'raises 125 to 225'), ('Gogo', 'folds'), ('Budd', 'folds')]",1
+Td 2c,N/A,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds')]",0
+Qh 7c,3h 7s 5c Qs 6c,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'raises 100 to 200'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'calls 200'), ('Eddie', 'folds'), ('Bill', 'calls 100'), ('Bill', 'checks'), ('Pluribus', 'bets 650'), ('Budd', 'calls 650'), ('Bill', 'folds'), ('Pluribus', 'checks'), ('Budd', 'bets 975'), ('Pluribus', 'raises 1950 to 2925'), ('Budd', 'calls 1950'), ('Pluribus', 'bets 6225 and is all-in'), ('Budd', 'calls 6225 and is all-in'), ('Budd', 'shows [5h 5d]')]",0
+Tc 7c,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 200 to 300'), ('Pluribus', 'folds')]",0
+5d 3c,Js Kc 2h,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'raises 125 to 225'), ('Eddie', 'calls 225'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Budd', 'checks'), ('Eddie', 'bets 480'), ('Budd', 'folds')]",0
+8s Qd,N/A,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds')]",0
+Kh 6h,5s 2s Qh 2d 5c,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'raises 100 to 200'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'calls 100'), ('Budd', 'checks'), ('Eddie', 'bets 135'), ('Budd', 'raises 390 to 525'), ('Eddie', 'calls 390'), ('Budd', 'checks'), ('Eddie', 'checks'), ('Budd', 'bets 1500'), ('Eddie', 'folds')]",0
+6s Ts,2s 9d 5c,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'raises 100 to 200'), ('Budd', 'raises 700 to 900'), ('Eddie', 'folds'), ('Gogo', 'calls 700'), ('Budd', 'bets 700'), ('Gogo', 'folds')]",0
+Kh Qd,Ts Kd 3h 4c,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'raises 125 to 225'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'calls 125'), ('Bill', 'checks'), ('MrWhite', 'bets 375'), ('Bill', 'raises 750 to 1125'), ('MrWhite', 'calls 750'), ('Bill', 'checks'), ('MrWhite', 'bets 999'), ('Bill', 'folds')]",1
+4c Qc,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'raises 122 to 222'), ('Bill', 'raises 728 to 950'), ('Pluribus', 'folds'), ('Eddie', 'folds')]",0
+3d Qc,3c 9h Jh 5h Jd,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 150 to 250'), ('Pluribus', 'calls 200'), ('MrWhite', 'folds'), ('Pluribus', 'checks'), ('Bill', 'checks'), ('Pluribus', 'checks'), ('Bill', 'checks'), ('Pluribus', 'checks'), ('Bill', 'checks'), ('Bill', 'shows [Kd Ac]')]",0
+6s 3d,6d 5s Qs Jd,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'raises 125 to 225'), ('Eddie', 'folds'), ('Bill', 'raises 475 to 700'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'calls 475'), ('Budd', 'checks'), ('Bill', 'bets 525'), ('Budd', 'calls 525'), ('Budd', 'checks'), ('Bill', 'bets 1950'), ('Budd', 'folds')]",0
+7h 7d,Jh 2d 4h Qd 6c,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'raises 100 to 200'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'calls 200'), ('Gogo', 'folds'), ('Budd', 'raises 1150 to 1350'), ('Eddie', 'folds'), ('MrWhite', 'calls 1150'), ('Budd', 'checks'), ('MrWhite', 'checks'), ('Budd', 'checks'), ('MrWhite', 'checks'), ('Budd', 'checks'), ('MrWhite', 'checks'), ('MrWhite', 'shows [7h 7d]')]",1
+Jh 3s,4h 3d Ac,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'raises 125 to 225'), ('MrWhite', 'folds'), ('Gogo', 'raises 475 to 700'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Pluribus', 'calls 475'), ('Pluribus', 'checks'), ('Gogo', 'bets 500'), ('Pluribus', 'folds')]",0
+Th 6c,5c 7d 8s 4h 8d,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'calls 50'), ('Bill', 'raises 250 to 350'), ('Eddie', 'calls 250'), ('Eddie', 'checks'), ('Bill', 'checks'), ('Eddie', 'checks'), ('Bill', 'checks'), ('Eddie', 'checks'), ('Bill', 'checks'), ('Eddie', 'shows [As 7c]')]",0
+Jc Qc,7d Ks Qd 8h As,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'raises 125 to 225'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'calls 125'), ('Pluribus', 'checks'), ('MrWhite', 'checks'), ('Pluribus', 'checks'), ('MrWhite', 'checks'), ('Pluribus', 'checks'), ('MrWhite', 'checks'), ('MrWhite', 'shows [Jc Qc]')]",1
+7s 7h,4h 9s 6h,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 150 to 250'), ('Pluribus', 'calls 200'), ('MrWhite', 'calls 150'), ('Pluribus', 'bets 750'), ('MrWhite', 'folds'), ('Bill', 'folds')]",0
+3c 6c,N/A,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds')]",0
+8c Kc,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds')]",0
+9h Ts,N/A,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'raises 100 to 200'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds')]",0
+6h 2s,5c 8s Ts Qc,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'calls 50'), ('Bill', 'checks'), ('Eddie', 'checks'), ('Bill', 'bets 150'), ('Eddie', 'calls 150'), ('Eddie', 'checks'), ('Bill', 'bets 375'), ('Eddie', 'folds')]",0
+Ts 5d,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 200 to 300'), ('Pluribus', 'raises 900 to 1200'), ('Bill', 'folds')]",0
+Td 2d,6s As Th 7s Ts,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 150 to 250'), ('Pluribus', 'folds'), ('MrWhite', 'calls 150'), ('MrWhite', 'checks'), ('Bill', 'bets 275'), ('MrWhite', 'calls 275'), ('MrWhite', 'checks'), ('Bill', 'checks'), ('MrWhite', 'checks'), ('Bill', 'checks'), ('MrWhite', 'shows [Td 2d]')]",1
+Ts 7d,N/A,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'raises 100 to 200'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds')]",0
+7h 5d,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'raises 125 to 225'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds')]",0
+6h 2c,Ah 4c 2d Qd 8s,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'calls 175'), ('Eddie', 'folds'), ('Budd', 'checks'), ('Bill', 'bets 175'), ('Budd', 'calls 175'), ('Budd', 'checks'), ('Bill', 'checks'), ('Budd', 'checks'), ('Bill', 'checks'), ('Budd', 'shows [8c 8h]')]",0
+3s 3d,8h Ah 8d,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'raises 125 to 225'), ('Gogo', 'calls 225'), ('Budd', 'folds'), ('Eddie', 'raises 1025 to 1250'), ('Bill', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'calls 1025'), ('Eddie', 'bets 706'), ('Gogo', 'folds')]",0
+5d Td,3s 6c 8c Ad 8s,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'raises 100 to 200'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'raises 900 to 1100'), ('Gogo', 'calls 900'), ('Pluribus', 'bets 1125'), ('Gogo', 'calls 1125'), ('Pluribus', 'checks'), ('Gogo', 'checks'), ('Pluribus', 'bets 3375'), ('Gogo', 'folds')]",0
+2d As,2h 8d Qd 9h,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'raises 125 to 225'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'calls 125'), ('MrWhite', 'checks'), ('Budd', 'checks'), ('MrWhite', 'checks'), ('Budd', 'bets 250'), ('MrWhite', 'folds')]",0
+Jd 8c,7d Ac Ad 9h 9d,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'raises 100 to 200'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'calls 100'), ('Gogo', 'checks'), ('Eddie', 'bets 100'), ('Gogo', 'calls 100'), ('Gogo', 'checks'), ('Eddie', 'checks'), ('Gogo', 'bets 650'), ('Eddie', 'folds')]",0
+7s Qh,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds')]",0
+3h 2d,Kd Qs Tc,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'raises 200 to 300'), ('Eddie', 'calls 200'), ('Budd', 'bets 450'), ('Eddie', 'folds')]",0
+6s 8c,N/A,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'raises 100 to 200'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds')]",0
+7h 5h,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'raises 122 to 222'), ('Bill', 'raises 728 to 950'), ('Pluribus', 'folds'), ('Eddie', 'folds')]",0
+3h Kc,3d Jh 5d,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'raises 100 to 200'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'calls 150'), ('MrWhite', 'calls 100'), ('Pluribus', 'checks'), ('MrWhite', 'checks'), ('Gogo', 'bets 300'), ('Pluribus', 'folds'), ('MrWhite', 'folds')]",0
+Ad 9d,2c Kd Jh,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'raises 550 to 775'), ('Gogo', 'folds'), ('Bill', 'calls 550'), ('MrWhite', 'checks'), ('Bill', 'bets 825'), ('MrWhite', 'folds')]",0
+Ah 9h,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'folds'), ('Bill', 'raises 125 to 225'), ('Pluribus', 'folds'), ('MrWhite', 'calls 225'), ('Gogo', 'raises 1175 to 1400'), ('Budd', 'folds'), ('Bill', 'folds'), ('MrWhite', 'folds')]",0
+Tc 2h,N/A,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'raises 100 to 200'), ('Budd', 'folds'), ('Eddie', 'raises 1050 to 1250'), ('Gogo', 'folds')]",0
+5d Qs,2d As 6c 8d,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'calls 50'), ('Bill', 'checks'), ('Eddie', 'bets 100'), ('Bill', 'calls 100'), ('Eddie', 'bets 320'), ('Bill', 'folds')]",0
+7h 4d,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'raises 125 to 225'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds')]",0
+Ks 7c,4s 2c 3s,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'raises 125 to 225'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'calls 125'), ('MrWhite', 'checks'), ('Budd', 'bets 175'), ('MrWhite', 'folds')]",0
+2c 3c,7c Th Ts 7s,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'raises 125 to 225'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'calls 125'), ('Gogo', 'checks'), ('Budd', 'bets 175'), ('Gogo', 'raises 500 to 675'), ('Budd', 'calls 500'), ('Gogo', 'checks'), ('Budd', 'bets 600'), ('Gogo', 'raises 1900 to 2500'), ('Budd', 'folds')]",0
+3d 5c,7c Js Kc,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'raises 100 to 200'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'calls 100'), ('Budd', 'checks'), ('Eddie', 'bets 405'), ('Budd', 'folds')]",0
+6s 3h,N/A,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds')]",0
+Jh 5s,6s 8s Ac 6d As,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'calls 50'), ('Bill', 'checks'), ('Eddie', 'checks'), ('Bill', 'checks'), ('Eddie', 'checks'), ('Bill', 'bets 100'), ('Eddie', 'calls 100'), ('Eddie', 'checks'), ('Bill', 'bets 300'), ('Eddie', 'folds')]",0
+7d 7s,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'raises 125 to 225'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'raises 575 to 800'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds')]",0
+Tc 3c,3d 4d Kd,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'raises 125 to 225'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'calls 125'), ('MrWhite', 'checks'), ('Budd', 'bets 175'), ('MrWhite', 'folds')]",0
+3c 5h,Qs Ad Qh 6c 9d,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'raises 100 to 200'), ('MrWhite', 'folds'), ('Gogo', 'calls 100'), ('Gogo', 'checks'), ('Pluribus', 'checks'), ('Gogo', 'checks'), ('Pluribus', 'bets 112'), ('Gogo', 'calls 112'), ('Gogo', 'checks'), ('Pluribus', 'bets 337'), ('Gogo', 'folds')]",0
+8c As,N/A,"[('Gogo', 'posts small blind 50'), ('Budd', 'posts big blind 100'), ('Eddie', 'raises 100 to 200'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds')]",0
+Ks Qs,Ac 9s Kc 6h 5s,"[('Budd', 'posts small blind 50'), ('Eddie', 'posts big blind 100'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'raises 125 to 225'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'calls 125'), ('Eddie', 'checks'), ('MrWhite', 'checks'), ('Eddie', 'bets 625'), ('MrWhite', 'calls 625'), ('Eddie', 'bets 1750'), ('MrWhite', 'folds')]",0
+Th Ks,N/A,"[('Eddie', 'posts small blind 50'), ('Bill', 'posts big blind 100'), ('Pluribus', 'folds'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'raises 150 to 250'), ('Eddie', 'folds'), ('Bill', 'folds')]",0
+Jd Th,N/A,"[('Bill', 'posts small blind 50'), ('Pluribus', 'posts big blind 100'), ('MrWhite', 'folds'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds')]",0
+Td Qd,5h 4c 4s 7d 3d,"[('Pluribus', 'posts small blind 50'), ('MrWhite', 'posts big blind 100'), ('Gogo', 'folds'), ('Budd', 'folds'), ('Eddie', 'raises 100 to 200'), ('Bill', 'folds'), ('Pluribus', 'folds'), ('MrWhite', 'calls 100'), ('MrWhite', 'checks'), ('Eddie', 'checks'), ('MrWhite', 'bets 337'), ('Eddie', 'calls 337'), ('MrWhite', 'checks'), ('Eddie', 'bets 562'), ('MrWhite', 'folds')]",0
+8h Tc,N/A,"[('MrWhite', 'posts small blind 50'), ('Gogo', 'posts big blind 100'), ('Budd', 'folds'), ('Eddie', 'folds'), ('Bill', 'folds'), ('Pluribus', 'raises 100 to 200'), ('MrWhite', 'folds'), ('Gogo', 'folds')]",0

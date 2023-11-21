@@ -14,8 +14,23 @@ for item in f:
     if item[0:16] == "Dealt to MrWhite":
         player_cards = item[18:23]
     #Collect Moves
+    
+    #Format of Moves: (Name, Move)
     elif item[0:8] == "MrWhite:":
-        move_history.append(item[item.index(" ")+1:item.index("\n")])
+        move_history.append(("MrWhite", item[item.index(" ")+1:item.index("\n")]))
+    elif item[0:5] == "Gogo:":
+        move_history.append(("Gogo", item[item.index(" ")+1:item.index("\n")]))
+    elif item[0:5] == "Budd:":
+        move_history.append(("Budd", item[item.index(" ")+1:item.index("\n")]))
+    elif item[0:5] == "Bill:":
+        move_history.append(("Bill", item[item.index(" ")+1:item.index("\n")]))
+    elif item[0:6] == "Eddie:":
+        move_history.append(("Eddie", item[item.index(" ")+1:item.index("\n")]))
+    elif item[0:9] == "Pluribus:":
+        move_history.append(("Pluribus", item[item.index(" ")+1:item.index("\n")]))
+
+
+
     elif item[-4:-1] == "pot":
         win = ''
         #Check if MrWhite won
@@ -28,7 +43,7 @@ for item in f:
         table_cards = item[7:item.index("]")]
     
     elif item == "\n":
-        #Make sure none of this executes if no moves were made
+        #The rest of this "if" branch shouldn't execute if no moves were made
         if len(move_history) == 0:
             continue
         #Make temporary move array
