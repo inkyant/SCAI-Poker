@@ -1,10 +1,19 @@
-import csv
+import csv, re
 
 #PLACE SCRIPT IN THE SAME DIRECTORY AS PLURIBUS LOGS
 fields = ["Cards", "Table Cards", "Move History", "Outcome"]
 
 f = open("pluribus_30.txt", "r")
 rows = []
+
+players = {
+    "Pluribus:": 0,
+    "MrWhite:": 1,
+    "Gogo:": 2,
+    "Budd:": 3,
+    "Eddie:": 4,
+    "Bill:": 5
+}
 
 player_cards = ''
 table_cards = 'N/A'
@@ -13,23 +22,17 @@ for item in f:
     #collect card values from MrWhite
     if item[0:16] == "Dealt to MrWhite":
         player_cards = item[18:23]
-    #Collect Moves
     
+    #Collect Moves
     #Format of Moves: (Name, Move)
-    elif item[0:8] == "MrWhite:":
-        move_history.append(("MrWhite", item[item.index(" ")+1:item.index("\n")]))
-    elif item[0:5] == "Gogo:":
-        move_history.append(("Gogo", item[item.index(" ")+1:item.index("\n")]))
-    elif item[0:5] == "Budd:":
-        move_history.append(("Budd", item[item.index(" ")+1:item.index("\n")]))
-    elif item[0:5] == "Bill:":
-        move_history.append(("Bill", item[item.index(" ")+1:item.index("\n")]))
-    elif item[0:6] == "Eddie:":
-        move_history.append(("Eddie", item[item.index(" ")+1:item.index("\n")]))
-    elif item[0:9] == "Pluribus:":
-        move_history.append(("Pluribus", item[item.index(" ")+1:item.index("\n")]))
-
-
+    name = re.match('^[a-zA-Z]+:', item)
+    if name:
+        move = item[item.index(":"):]
+        if re.match('folds', move):
+            #TODO: implement moves as an array of numbers
+            pass
+            
+        move_history.append((players[name.group()], item[item.index(" ")+1:item.index("\n")]))
 
     elif item[-4:-1] == "pot":
         win = ''
