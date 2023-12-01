@@ -2,28 +2,32 @@ import csv, re, os
 
 #PLACE SCRIPT IN THE SAME DIRECTORY AS PLURIBUS LOGS
 fields = ["Cards", "Table Cards", "Move History", "Outcome"]
-
+rows = []
 #Iterate through all files
 
 for filename in os.listdir():
     if filename[-4:] != ".txt":
         continue
     f = open(filename, "r") 
-    rows = []
-    #Dictionary needs to be adjusted according to the players in the game
+
+    #Read all lines to extract names
+    lines = f.readlines()
+    
+    names = [lines[i][8: lines[i].index("(") - 1] for i in range(2, 8)] #Uses the left parenthesis to stop at space right after the name
+    names.remove("Pluribus")
     players = {
         "Pluribus:": 0,
-        "MrWhite:": 1,
-        "Gogo:": 2,
-        "Budd:": 3,
-        "Eddie:": 4,
-        "Bill:": 5
+        names[0] + ":": 1,
+        names[1] + ":": 2,
+        names[2] + ":": 3,
+        names[3] + ":": 4,
+        names[4] + ":": 5
     }
 
     player_cards = ''
     table_cards = 'N/A'
     move_history = []
-    for item in f:
+    for item in lines:
         #collect card values from MrWhite
         if item[0:17] == "Dealt to Pluribus":
             player_cards = item[19:24]
@@ -41,7 +45,7 @@ for filename in os.listdir():
 
         elif item[-4:-1] == "pot":
             win = ''
-            #Check if MrWhite won
+            #Check if Pluribus won won
             if item[0:item.index(" ")] == "Pluribus":
                 win = 1
             else:
