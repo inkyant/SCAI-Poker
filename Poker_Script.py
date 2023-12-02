@@ -7,10 +7,11 @@ fields = ["Cards", "Move History", "Outcome"]
 rows = []
 #Iterate through all files
 
-for filename in os.listdir():
+for filename in os.listdir('./pluribus_converted_logs'):
     if filename[-4:] != ".txt":
         continue
-    f = open(filename, "r") 
+    f = open('./pluribus_converted_logs/' + filename, "r") 
+    print(filename)
 
     #Read all lines to extract names
     lines = f.readlines()
