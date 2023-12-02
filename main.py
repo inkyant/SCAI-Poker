@@ -1,83 +1,98 @@
+import copy
+ 
+import matplotlib.pyplot as plt
 import numpy as np
 import torch
-from torch import nn
+import torch.nn as nn
+import torch.optim as optim
+import tqdm
+from sklearn.model_selection import train_test_split
 
+import pandas as pd 
 
-input_data = [
-        ([1,  37, 5,  14, 22], 0)
-        ([4,  37, 5,  14, 41], 1),
-        ([13, 37, 5,  14, 41], 0),
-        ([12, 6,  25, 32, 1],  1),
-        ([50, 37, 5,  14, 41], 0),
-    ]
+# get data
+csvData = pd.read_csv("Poker_data.csv") 
 
-input_data = np.array(input_data)
+data_size = 1500
 
-# from: https://github.com/christianversloot/machine-learning-articles/blob/main/how-to-create-a-neural-network-for-regression-with-pytorch.md
+X = csvData.iloc[list(range(data_size//2)) + list(range(-data_size//2, 0)), 0:14].to_numpy()
+y = csvData.iloc[list(range(data_size//2)) + list(range(-data_size//2, 0)), 14].to_numpy()
 
+# print(X.shape)
+# print(y.shape)
+# print(X)
+# print(y)
+# print()
 
-class MLP(nn.Module):
-    
-    def __init__(self):
-        super().__init__()
-        self.layers = nn.Sequential(
-            nn.Linear(5, 32),
-            nn.ReLU(),
-            nn.Linear(32, 16),
-            nn.ReLU(),
-            nn.Linear(16, 1)
-        )
+# train-test split for model evaluation
+X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.75, shuffle=True)
 
-    def forward(self, x):
-        return self.layers(x)
-    
+# Convert to 2D PyTorch tensors
+X_train = torch.tensor(X_train, dtype=torch.float32)
+y_train = torch.tensor(y_train, dtype=torch.float32).reshape(-1, 1)
+X_test = torch.tensor(X_test, dtype=torch.float32)
+y_test = torch.tensor(y_test, dtype=torch.float32).reshape(-1, 1)
+ 
+# Define the model
+model = nn.Sequential(
+    nn.Linear(14, 24),
+    nn.ReLU(),
+    nn.Linear(24, 12),
+    nn.ReLU(),
+    nn.Linear(12, 6),
+    nn.ReLU(),
+    nn.Linear(6, 1),
+    nn.Sigmoid()
+)
+ 
+# loss function and optimizer
+loss_fn = nn.MSELoss()  # mean square error
+optimizer = optim.Adam(model.parameters(), lr=0.0003)
+ 
+n_epochs = 150   # number of epochs to run
+batch_size = 10  # size of each batch
+batch_start = torch.arange(0, len(X_train), batch_size)
+ 
+# Hold the best model
+best_mse = np.inf   # init to infinity
+best_weights = None
+best_epoch = 0
+history = []
+ 
+for epoch in range(n_epochs):
+    model.train()
+    with tqdm.tqdm(batch_start, unit="batch", mininterval=0, disable=False) as bar:
+        bar.set_description(f"Epoch {epoch}")
+        for start in bar:
+            # take a batch
+            X_batch = X_train[start:start+batch_size]
+            y_batch = y_train[start:start+batch_size]
+            # forward pass
+            y_pred = model(X_batch)
+            loss = loss_fn(y_pred, y_batch)
+            # backward pass
+            optimizer.zero_grad()
+            loss.backward()
+            # update weights
+            optimizer.step()
+            # print progress
+            bar.set_postfix(mse=float(loss))
+    # evaluate accuracy at end of each epoch
+    model.eval()
+    y_pred = model(X_test)
+    mse = loss_fn(y_pred, y_test)
+    mse = float(mse)
+    history.append(mse)
+    if mse < best_mse:
+        best_mse = mse
+        best_epoch = epoch
+        best_weights = copy.deepcopy(model.state_dict())
+ 
+# restore model and return best accuracy
+model.load_state_dict(best_weights)
+print("MSE: %.2f" % best_mse)
+print("RMSE: %.2f" % np.sqrt(best_mse))
+print(f'Best epoch {best_epoch}')
+plt.plot(history)
+plt.show()
 
-# Initialize the MLP
-mlp = MLP()
-
-# Define the loss function and optimizer
-loss_function = nn.L1Loss()
-optimizer = torch.optim.Adam(mlp.parameters(), lr=1e-4)
-
-
-# Run the training loop
-for epoch in range(0, 5): # 5 epochs at maximum
-
-    # Print epoch
-    print(f'Starting epoch {epoch+1}')
-
-    # Set current loss value
-    current_loss = 0.0
-
-    # Iterate over the DataLoader for training data
-    for i, data in enumerate(input_data, 0):
-        
-        # Get and prepare inputs
-        inputs, targets = data
-        inputs, targets = inputs.float(), targets.float()
-        targets = targets.reshape((targets.shape[0], 1))
-        
-        # Zero the gradients
-        optimizer.zero_grad()
-        
-        # Perform forward pass
-        outputs = mlp(inputs)
-        
-        # Compute loss
-        loss = loss_function(outputs, targets)
-        
-        # Perform backward pass
-        loss.backward()
-        
-        # Perform optimization
-        optimizer.step()
-        
-        # Print statistics
-        current_loss += loss.item()
-        if i % 10 == 0:
-            print('Loss after mini-batch %5d: %.3f' %
-                (i + 1, current_loss / 500))
-            current_loss = 0.0
-
-    # Process is complete.
-    print('Training process has finished.')
