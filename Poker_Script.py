@@ -111,18 +111,16 @@ for filename in os.listdir('./pluribus_converted_logs'):
 
     f.close()
 
-#Write to CSV
-
+# Write to CSV
 with open('Poker_data.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         #Write first row 
-        writer.writerow(fields)
+        # writer.writerow(fields)
+
+        rows.sort(key=(lambda x: x[14]))
 
         #Loop through every row and write to csv
         for row in rows:
             writer.writerow(row)
-    
-
-
 
 
