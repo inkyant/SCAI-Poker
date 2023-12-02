@@ -37,7 +37,7 @@ for filename in os.listdir('./pluribus_converted_logs'):
             card_2 = card_dict[item[22:23]]
             suit_2 = suit_dict[item[23:24]]
 
-            player_cards = f'{card_1}, {suit_1}, {card_2}, {suit_2}'
+            player_cards = [card_1, suit_1, card_2, suit_2]
 
 
 
@@ -77,11 +77,12 @@ for filename in os.listdir('./pluribus_converted_logs'):
             #Diff 11: 4 Cards
             #Diff 14: 5 Cards
             if diff == 8:
-                player_cards += f', {table_card1}, {table_suit1}, {table_card2}, {table_suit2}, {table_card3}, {table_suit3}'
+                player_cards += [table_card1, table_suit1, table_card2, table_suit2, table_card3, table_suit3]
+                pass
             elif diff == 11:
                 table_card4 = card_dict[item[16:17]]
                 table_suit4 = suit_dict[item[17:18]]
-                player_cards += f', {table_card1}, {table_suit1}, {table_card2}, {table_suit2}, {table_card3}, {table_suit3}, {table_card4}, {table_suit4}'
+                player_cards += [table_card1, table_suit1, table_card2, table_suit2, table_card3, table_suit3, table_card4, table_suit4]
             
             else:
                 table_card4 = card_dict[item[16:17]]
@@ -89,7 +90,7 @@ for filename in os.listdir('./pluribus_converted_logs'):
                 
                 table_card5 = card_dict[item[19:20]]
                 table_suit5 = suit_dict[item[20:21]]
-                player_cards += f', {table_card1}, {table_suit1}, {table_card2}, {table_suit2}, {table_card3}, {table_suit3}, {table_card4}, {table_suit4}, {table_card5}, {table_suit5}'
+                player_cards += [table_card1, table_suit1, table_card2, table_suit2, table_card3, table_suit3, table_card4, table_suit4, table_card5, table_suit5]
         
         elif item == "\n":
             #The rest of this "if" branch shouldn't execute if no moves were made
@@ -99,7 +100,9 @@ for filename in os.listdir('./pluribus_converted_logs'):
             move_array = []
             for element in move_history:
                 move_array.append(element)
-            rows.append([player_cards, move_array, win])
+            player_cards.append(win)
+            if len(player_cards) == 15:
+                rows.append(player_cards)
             move_history.clear()
             player_cards = 'N/A'
             
