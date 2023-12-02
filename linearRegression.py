@@ -29,6 +29,7 @@ print("Coefficients: \n", reg.coef_)
 print("Mean squared error: %.2f" % mean_squared_error(y_test, yPred))
 print("Coefficient of determination: %.2f" % r2_score(y_test, yPred))
 
+def pred(cards):
+    return reg.predict(np.array(cards).reshape(1, -1))
 
-
-
+query(pred)
