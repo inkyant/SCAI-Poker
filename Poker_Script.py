@@ -1,7 +1,9 @@
 import csv, re, os
 
 #PLACE SCRIPT IN THE SAME DIRECTORY AS PLURIBUS LOGS
-fields = ["Cards", "Table Cards", "Move History", "Outcome"]
+card_dict = {"A": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "T": 10, "J": 11, "Q": 12, "K": 13}
+suit_dict = {"h": 1, "d": 2, "c": 3, "s": 4}
+fields = ["Cards", "Move History", "Outcome"]
 rows = []
 #Iterate through all files
 
@@ -24,13 +26,21 @@ for filename in os.listdir():
         names[4] + ":": 5
     }
 
-    player_cards = ''
-    table_cards = 'N/A'
+    player_cards = "N/A"
     move_history = []
     for item in lines:
         #collect card values from MrWhite
         if item[0:17] == "Dealt to Pluribus":
-            player_cards = item[19:24]
+            card_1 = card_dict[item[19:20]]
+            suit_1 = suit_dict[item[20:21]]
+            card_2 = card_dict[item[22:23]]
+            suit_2 = suit_dict[item[23:24]]
+
+            player_cards = f'{card_1}, {suit_1}, {card_2}, {suit_2}'
+
+
+
+
         
         #Collect Moves
         #Format of Moves: (Name, Move)
@@ -52,7 +62,33 @@ for filename in os.listdir():
                 win = 0
         #Compile table cards
         elif item[0:5] == "Board":
-            table_cards = item[7:item.index("]")]
+            #Use difference in index numbers to find how many cards are on the table
+            diff = item.index("]") - 7
+            table_card1 = card_dict[item[7:8]]
+            table_suit1 = suit_dict[item[8:9]]
+
+            table_card2 = card_dict[item[10:11]]
+            table_suit2 = suit_dict[item[11:12]]
+
+            table_card3 = card_dict[item[13:14]]
+            table_suit3 = suit_dict[item[14:15]]
+            #Diff 8: 3 Cards
+            #Diff 11: 4 Cards
+            #Diff 14: 5 Cards
+            if diff == 8:
+                player_cards += f', {table_card1}, {table_suit1}, {table_card2}, {table_suit2}, {table_card3}, {table_suit3}'
+            elif diff == 11:
+                table_card4 = card_dict[item[16:17]]
+                table_suit4 = suit_dict[item[17:18]]
+                player_cards += f', {table_card1}, {table_suit1}, {table_card2}, {table_suit2}, {table_card3}, {table_suit3}, {table_card4}, {table_suit4}'
+            
+            else:
+                table_card4 = card_dict[item[16:17]]
+                table_suit4 = suit_dict[item[17:18]]
+                
+                table_card5 = card_dict[item[19:20]]
+                table_suit5 = suit_dict[item[20:21]]
+                player_cards += f', {table_card1}, {table_suit1}, {table_card2}, {table_suit2}, {table_card3}, {table_suit3}, {table_card4}, {table_suit4}, {table_card5}, {table_suit5}'
         
         elif item == "\n":
             #The rest of this "if" branch shouldn't execute if no moves were made
@@ -62,9 +98,10 @@ for filename in os.listdir():
             move_array = []
             for element in move_history:
                 move_array.append(element)
-            rows.append([player_cards, table_cards, move_array, win])
+            rows.append([player_cards, move_array, win])
             move_history.clear()
-            table_cards = 'N/A'
+            player_cards = 'N/A'
+            
         else:
             continue
 
