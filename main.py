@@ -15,7 +15,7 @@ from query import query
 # get data
 csvData = pd.read_csv("Poker_data.csv") 
 
-data_size = 1500
+data_size = 1200
 
 X = csvData.iloc[list(range(data_size//2)) + list(range(-data_size//2, 0)), 0:14].to_numpy()
 y = csvData.iloc[list(range(data_size//2)) + list(range(-data_size//2, 0)), 14].to_numpy()

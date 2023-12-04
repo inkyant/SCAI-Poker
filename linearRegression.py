@@ -16,7 +16,7 @@ X = csvData.iloc[list(range(data_size//2)) + list(range(-data_size//2, 0)), 0:14
 y = csvData.iloc[list(range(data_size//2)) + list(range(-data_size//2, 0)), 14].to_numpy()
 
 # train-test split for model evaluation
-X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.75, shuffle=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.85, shuffle=True)
 
 
 reg = linear_model.LinearRegression()
