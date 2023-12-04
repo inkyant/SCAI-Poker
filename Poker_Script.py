@@ -1,7 +1,7 @@
 import csv, re, os
 
 #PLACE SCRIPT IN THE SAME DIRECTORY AS PLURIBUS LOGS
-card_dict = {"A": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "T": 10, "J": 11, "Q": 12, "K": 13}
+card_dict = {"A": 14, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "T": 10, "J": 11, "Q": 12, "K": 13}
 suit_dict = {"h": 1, "d": 2, "c": 3, "s": 4}
 fields = ["Cards", "Move History", "Outcome"]
 rows = []
