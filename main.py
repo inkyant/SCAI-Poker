@@ -37,11 +37,9 @@ y_test = torch.tensor(y_test, dtype=torch.float32).reshape(-1, 1)
  
 # Define the model
 model = nn.Sequential(
-    nn.Linear(14, 24),
+    nn.Linear(14, 8),
     nn.ReLU(),
-    nn.Linear(24, 12),
-    nn.ReLU(),
-    nn.Linear(12, 6),
+    nn.Linear(8, 6),
     nn.ReLU(),
     nn.Linear(6, 1),
     nn.Sigmoid()
